@@ -67,10 +67,22 @@ def run():
     # else:
     #     print("¡No me lo creo!")
     # print(f"Usted dice que tiene {edad} años.")
-    edad = int(input("¿Cuántos años tiene? "))
-    if edad >= 120:
-        print("¡No me lo creo!")
-    print(f"Usted dice que tiene {edad} años.")
+    
+    # edad = int(input("¿Cuántos años tiene? "))
+    # if edad >= 120:
+    #     print("¡No me lo creo!")
+    # print(f"Usted dice que tiene {edad} años.")
+
+
+    lista = range(1,11)
+    for x in lista:
+        if x == 9:
+            break
+        if x == 5:
+            continue
+        print("Numero: ", x)
+
+
 #
 #
 if __name__ == '__main__':
