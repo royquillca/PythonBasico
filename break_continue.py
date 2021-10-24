@@ -45,12 +45,12 @@ def run():
     
     #CON DOS CILO IF (IF ... IF) 
     
-    # edad = int(input('¿Cuantos años tienes? '))
-    # if edad < 18:
-    #     print("Es usted menor de edad")
-    # if edad > 18:
-    #     print("Es usted mayor de edad")
-    # print("¡Hasta la próxima!")
+    edad = int(input('¿Cuantos años tienes? '))
+    if edad < 18:
+        print("Es usted menor de edad")
+    if edad > 18:
+        print("Es usted mayor de edad")
+    print("¡Hasta la próxima!")
     
     """
     Es mejor no hacerlo así por dos motivos:
@@ -74,16 +74,5 @@ def run():
     # print(f"Usted dice que tiene {edad} años.")
 
 
-    lista = range(1,11)
-    for x in lista:
-        if x == 9:
-            break
-        if x == 5:
-            continue
-        print("Numero: ", x)
-
-
-#
-#
-if __name__ == '__main__':
+if __name__  == '__main__':
     run()
